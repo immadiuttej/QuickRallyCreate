@@ -29,11 +29,11 @@ To use this integration, you'll need a Rally API Key. Here's how to obtain one:
 1. Log in to your Rally account.
 2. Navigate to your user settings.
 3. Look for a tab or section labeled "API Keys".
-4. Click on "Create New API Key" or a similar option.
+4. Click on "Create"
 5. Give your API key a name (e.g., "Rally Integration Script").
 6. Copy the generated API key and store it securely. You'll need this for the script.
 
-Note: API keys are sensitive information. Never share your API key or commit it to version control systems.
+Note: API keys are sensitive information. Never share your API key.
 
 ## Flask Web Application
 
@@ -91,12 +91,12 @@ Prepare your Excel file with the following columns:
 
 | User Story or Task | Name | Description | Plan Estimate | Todo Hours | Estimate Hours | Release | Iteration | Development End Date | Owner |
 |--------------------|------|-------------|---------------|------------|----------------|---------|-----------|----------------------|-------|
-| User Story | Implement login | Create login functionality | 5 | | | Release 1 | Sprint 1 | 12/31/2024 | john.doe |
-| Task | Design UI | | | 3 | 3 | | | | jane.smith |
-| Task | Implement backend | | | 5 | 5 | | | | john.doe |
-| User Story | Add dashboard | Create user dashboard | 8 | | | Release 1 | Sprint 2 | 01/15/2025 | jane.smith |
-| Task | Design layout | | | 4 | 4 | | | | designer.user |
-| Task | Implement widgets | | | 6 | 6 | | | | developer.user |
+| User Story | Implement login | Create login functionality | 5 | | | Release 1 | Sprint 1 | 12/31/2024 | john.doe@company.com |
+| Task | Design UI | | | 3 | 3 | | | | jane.smith@company.com |
+| Task | Implement backend | | | 5 | 5 | | | | john.doe@company.com |
+| User Story | Add dashboard | Create user dashboard | 8 | | | Release 1 | Sprint 2 | 01/15/2025 | jane.smith@company.com |
+| Task | Design layout | | | 4 | 4 | | | | designer.user@company.com |
+| Task | Implement widgets | | | 6 | 6 | | | | developer.user@company.com |
 
 ## Important Notes
 
@@ -113,6 +113,8 @@ Prepare your Excel file with the following columns:
 6. The Development End Date should be in MM/DD/YYYY format.
 
 7. Numeric fields (Plan Estimate, Todo Hours, Estimate Hours) can be left blank if not applicable.
+
+8. Make sure that the name of the "Release" and "Iteration" match what you have in your rally project.
 
 ## Error Handling
 
