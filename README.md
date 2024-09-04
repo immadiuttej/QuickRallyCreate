@@ -87,6 +87,8 @@ Prepare your Excel file with the following columns:
 | I | Development End Date | For user stories, in MM/DD/YYYY format (can be left blank for tasks) |
 | J | Owner | Username for both user stories and tasks |
 
+- You can find a sample of how the excel should be constructed in the excel template folder. 
+
 ## Sample Excel File Content
 
 | User Story or Task | Name | Description | Plan Estimate | Todo Hours | Estimate Hours | Release | Iteration | Development End Date | Owner |
@@ -131,5 +133,5 @@ If the script encounters an error, it will display an error message on the failu
 
 ## Support
 
-For any issues or questions, please contact your Rally administrator or the script maintainer.
+For any issues or questions, please contact your Rally administrator or you can mail me at immadiuttej2@gmail.com
 
