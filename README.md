@@ -1,2 +1,2 @@
 # QuickRallyCreate
-Now, creating user stories in bulk in a snap.
+Now, user story creation is as easy as a snap.
