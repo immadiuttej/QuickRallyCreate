@@ -108,13 +108,11 @@ Prepare your Excel file with the following columns:
 
 4. If a task's owner is left blank, it will inherit the owner from its parent user story.
 
-5. The Release and Iteration names must match exactly with those in your Rally instance.
+5. The Release and Iteration names must match exactly with those in your Rally Project.
 
 6. The Development End Date should be in MM/DD/YYYY format.
 
 7. Numeric fields (Plan Estimate, Todo Hours, Estimate Hours) can be left blank if not applicable.
-
-8. Make sure that the name of the "Release" and "Iteration" match what you have in your rally project.
 
 ## Error Handling
 
