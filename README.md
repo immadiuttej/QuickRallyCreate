@@ -124,13 +124,6 @@ If the script encounters an error, it will display an error message on the failu
 - Tasks defined before a user story
 - Failure to find specified Releases or Iterations in Rally
 
-## Security Notes
-
-1. The Flask development server is not suitable for production use. For production deployment, use a production-grade WSGI server like Gunicorn or uWSGI.
-2. Implement proper authentication and authorization in the Flask app before deploying it in a production environment.
-3. Use HTTPS to encrypt data in transit, especially when handling API keys and other sensitive information.
-4. Consider using environment variables or a secure secrets management solution to handle the Rally API key and other sensitive configuration data.
-
 ## Support
 
 For any issues or questions, please contact your Rally administrator or you can mail me at immadiuttej2@gmail.com
